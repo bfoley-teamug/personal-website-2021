@@ -1,0 +1,99 @@
+body {
+  color: #959ba1;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  width: 100%;
+  text-align: center;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  /* margin: 15px 30px; */
+  width: 100%;
+}
+
+#photo {
+  background: linear-gradient(
+      rgba(10, 149, 10, .08), 
+      rgba(10, 149, 10, .08)
+    ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg') no-repeat center
+  center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 12px 0 300px;
+}
+ 
+
+.page-heading-primary {
+  display: block;
+  font-size: 3.75em;
+  font-weight: 300;
+  background: -webkit-linear-gradient(#3498db, #262748);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin: .8em 0 .4em; 
+}
+
+.page-heading-secondary {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  margin: 0 0 6.5rem;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+li {
+ font-size: 18px;  
+}
+
+a:hover {
+  transform: scale(1.25); 
+}
+
+.skillset {
+ margin-right: 20px;  
+}
+
+.footer {
+  margin: 20px;  
+}
+
+
+@media (max-width: 680px) {
+    
+   #photo {
+     background-image: linear-gradient(
+      to top, transparent, rgba(10, 149, 10, .08)
+      ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
+  background-repeat: no-repeat;
+  
+    }    
+  
+  .footer {
+    margin-top: 200px;
+  }
+}  
+
+/*@media (min-width: 480px) {
+  
+    #photo {
+     background-color: white;
+  background-image: linear-gradient(
+    to bottom, transparent, white
+  ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
+  background-repeat: no-repeat;
+    }    
+  
+}  */
+
+  
+ 
