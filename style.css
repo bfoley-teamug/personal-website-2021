@@ -1,5 +1,5 @@
 body {
-  color: #959ba1;
+  color: #8a8e91;
   font-size: 1em;
   font-weight: 600;
   font-family: 'Roboto', Helvetica, Arial, serif;
@@ -15,17 +15,33 @@ h1 {
   width: 100%;
 }
 
+img {
+  border: 2px solid green;
+  margin: 60px 3px;
+}
+
 #photo {
+  /*background-image: linear-gradient(
+      to top, transparent, rgba(10, 149, 10, .08)
+      ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
+  background-repeat: no-repeat; */
+  
   background: linear-gradient(
-      rgba(10, 149, 10, .08), 
-      rgba(10, 149, 10, .08)
+      rgba(10, 149, 10, .13), 
+      rgba(10, 149, 10, .13)
     ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg') no-repeat center
   center fixed; 
+  
+  background-image: linear-gradient(
+      to top, transparent, rgba(10, 149, 10, .13)
+      ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
+  background-repeat: no-repeat;
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 12px 0 300px;
+  padding: 12px 0 300px; 
 }
  
 
@@ -52,15 +68,24 @@ ul li {
 }
 
 li {
- font-size: 18px;  
+ font-size: 24px;  
+  
 }
 
-a:hover {
-  transform: scale(1.25); 
+.hey {
+    width: 100px;
+    position: relative;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+
+.hey:hover {
+    transform: scale(1.2, 1.2);  
 }
 
 .skillset {
- margin-right: 20px;  
+ padding: 20px
+   text-align: center;
 }
 
 .footer {
@@ -72,7 +97,7 @@ a:hover {
     
    #photo {
      background-image: linear-gradient(
-      to top, transparent, rgba(10, 149, 10, .08)
+      to top, transparent, rgba(10, 149, 10, .12)
       ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
   background-repeat: no-repeat;
   
@@ -82,18 +107,6 @@ a:hover {
     margin-top: 200px;
   }
 }  
-
-/*@media (min-width: 480px) {
-  
-    #photo {
-     background-color: white;
-  background-image: linear-gradient(
-    to bottom, transparent, white
-  ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
-  background-repeat: no-repeat;
-    }    
-  
-}  */
 
   
  
