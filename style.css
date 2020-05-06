@@ -2,10 +2,17 @@ body {
   color: #8a8e91;
   font-size: 1em;
   font-weight: 600;
-  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-family: 'Roboto', Arial, serif;
   width: 100%;
   text-align: center;
   padding: 25px;
+  opacity: 1;
+  transition: 0.7s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
 }
 
 h1 {
@@ -85,11 +92,17 @@ li {
 
 .skillset {
  padding: 20px
-   text-align: center;
+ text-align: center;
 }
 
 .footer {
   margin: 20px;  
+}
+
+p {
+ font-size: .8em;
+ font-weight: 100; 
+ margin: 20px 0;
 }
 
 
@@ -102,6 +115,10 @@ li {
   background-repeat: no-repeat;
   
     }    
+  
+  li {
+ font-size: 18px;   
+}
   
   .footer {
     margin-top: 200px;
