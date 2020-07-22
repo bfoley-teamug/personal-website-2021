@@ -1,5 +1,5 @@
 body {
-  color: #8a8e91; 
+  color: #8a8e91;
   font-size: 1em;
   font-weight: 600;
   font-family: 'Roboto', Arial, serif;
@@ -32,25 +32,25 @@ img {
       to top, transparent, rgba(10, 149, 10, .08)
       ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
   background-repeat: no-repeat; */
-  
+
   background: linear-gradient(
-      rgba(10, 149, 10, .13), 
+      rgba(10, 149, 10, .13),
       rgba(10, 149, 10, .13)
     ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg') no-repeat center
-  center fixed; 
-  
+  center fixed;
+
   background-image: linear-gradient(
       to top, transparent, rgba(10, 149, 10, .13)
       ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
   background-repeat: no-repeat;
-  
+
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 12px 0 300px; 
+  padding: 12px 0 300px;
 }
- 
+
 
 .page-heading-primary {
   display: block;
@@ -59,7 +59,7 @@ img {
   background: -webkit-linear-gradient(#3498db, #262748);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  margin: .8em 0 .4em; 
+  margin: .8em 0 .4em;
 }
 
 .page-heading-secondary {
@@ -75,8 +75,8 @@ ul li {
 }
 
 li {
- font-size: 24px;  
-  
+ font-size: 24px;
+
 }
 
 .hey {
@@ -87,7 +87,7 @@ li {
 }
 
 .hey:hover {
-    transform: scale(1.2, 1.2);  
+    transform: scale(1.2, 1.2);
 }
 
 .skillset {
@@ -96,34 +96,43 @@ li {
 }
 
 .footer {
-  margin: 20px;  
+  margin: 20px;
 }
 
 p {
- font-size: .8em;
- font-weight: 100; 
+ font-size: 1.2em;
+ font-weight: 100;
  margin: 20px 0;
 }
 
+.backgroundphoto {
+  font-size: .8em;
+}
 
-@media (max-width: 680px) {
-    
+
+@media (max-width: 768px) {
+
    #photo {
      background-image: linear-gradient(
       to top, transparent, rgba(10, 149, 10, .12)
       ), url('https://raw.githubusercontent.com/bfoley-teamug/personal-website-2018/master/img/landscape4.jpg');
   background-repeat: no-repeat;
-  
-    }    
-  
+
+    }
+
   li {
- font-size: 18px;   
-}
-  
+    font-size: 18px;
+  }
+
+  img {
+    margin: 20px 3px;
+  }
+
+  .skillset {
+    padding: 0; 
+  }
+
   .footer {
     margin-top: 200px;
   }
-}  
-
-  
- 
+}
